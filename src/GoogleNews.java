@@ -20,6 +20,7 @@ public class GoogleNews {
 		System.out.println(title);
 		Thread.sleep(5000);
 		System.out.println("Test Case is passed");
+		System.out.println("New Code Added on 04/04/2018");
 		driver.quit();
 	}
 
