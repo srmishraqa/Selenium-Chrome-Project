@@ -1,4 +1,3 @@
-
 //Program to check driving license eligibility
 public class EligibiltyCheck {
 

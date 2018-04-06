@@ -6,7 +6,7 @@ public class GoogleNews {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Android\\Updated Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Drivers\\Chrome Driver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 

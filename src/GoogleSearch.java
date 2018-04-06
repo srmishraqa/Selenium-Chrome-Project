@@ -5,7 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class GoogleSearch {
 
 	public static void main(String[] args) throws InterruptedException {
-      
+		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\Drivers\\Gecko Driver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		String baseurl = "https://www.google.co.in/";
 		driver.get(baseurl);
